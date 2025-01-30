@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!-- FontAwsome -->
+    <script src="https://kit.fontawesome.com/e39c7a8394.js" crossorigin="anonymous"></script>
+    <!-- Google Font -->
+        <!-- Adlam Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+        <!-- sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .adlam-display{
+            font-family: "ADLaM Display", serif;
+        }
+        .sora{
+            font-family: "Sora", serif;
+        }
+    </style>
+    <!-- Tailwind And daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="tailwindcss.js"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',                                
+                'secondary': '#FFF9F4',                              
+                                               
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="sora">
+    <!-- Header -->
+    <header class="bg-secondary">
+        <nav class="md:container md:mx-auto md:py-6">
+            <div class="navbar flex">
+                <div class="navbar-start flex-1 lg:flex-1 flex-row-reverse justify-between"> 
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Find a pet</a></li>                    
+                      <li><a>Breeds</a></li>
+                      <li><a>Contact us</a></li>
+                    </ul>
+                  </div>
+                  <a class="text-[1.625rem] flex justify-start items-center">
+                        <img src="c1-assets/logo-header.png" class="mr-3" alt="">
+                        <span class="hidden md:inline">Browse<span class="text-yellow-400">4</span>Pets</span>
+                  </a>
+                </div>
+                <div class="navbar-center hidden lg:flex lg:flex-1">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Find a pet</a></li>                    
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="hidden lg:flex lg:flex-1 navbar-end space-x-4">
+                    <div class="space-x-4">
+                        <i class="fa-solid fa-bell text-black"></i>
+                        <i class="fa-solid fa-magnifying-glass text-black"></i>
+                    </div>
+                    <div class="space-x-3">
+                        <button class="btn border-yellow-400 bg-secondary hover:bg-yellow-400 py-[10px] px-[30px]">Login</button>                  
+                        <button class="btn bg-yellow-400 hover:bg-secondary hover:border-yellow-400 py-[10px] px-[30px]">Register</button>                 
+                    </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main class="md:container md:mx-auto">
+
+    </main>
+    <!-- Footer -->
+    <footer class="md:container md:mx-auto">
+
+    </footer>
+</body>
+</html>
