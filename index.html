@@ -89,8 +89,8 @@
         </nav>
     </header>
     <!-- Main -->
-    <main class="md:container md:mx-auto ">
-      <section class="md:mb-[200px]">
+    <main class="md:container md:mx-auto z-50">
+      <section class="p-3 md:mb-[200px]">
         <div class="relative">
           <!-- contant  -->
           <div class="md:min-h-screen z-10 md:w-[680px]">
@@ -112,7 +112,7 @@
       </section>
       
       <!-- Categories Section -->
-      <section class="my-24">
+      <section class="p-3 my-24">
         <h2 class="adlam-display text-[2.25rem] font-bold mb-12">Browse By Categories</h2>
         <div class="flex flex-wrap gap-6">
           <div class="bg-[#F9DF8A] px-12 py-9 rounded-xl space-y-8 flex flex-1 flex-col items-center justify-center">
@@ -160,7 +160,7 @@
         </div>
       </section>
       <!-- Trending section -->
-       <section class="bg-secondary py-24">
+       <section class="p-3 bg-secondary py-24">
         <h2 class="adlam-display text-[2.25rem] font-bold mb-12">Trending Pet Products</h2>
         <div class="md:flex space-y-5 gap-6">
           <div class="md:w-1/3 rounded-xl bg-[#F9DF8A] p-8 pb-12">
@@ -280,10 +280,101 @@
         </div>
         
        </section>
+       <!-- Accessories  -->
+        <section class="p-3 my-24">
+          <div>
+            <h2 class="adlam-display text-[2.25rem] font-bold mb-8">Accessories for Your Beloved Pets</h2>
+            <p class="mb-6">Questions about what to feed your pet or what accessories to provide are crucial in the minds of pet parents like you. Despite these not being easy questions, our experts are here to guide you to the very best you can offer to your loving pet!</p>
+            <button class="btn bg-yellow-400 hover:bg-secondary hover:border-yellow-400 px-4 py-2 md:py-[10px] md:px-[30px]"><i class="fa-solid fa-arrow-right"></i>Read Buyers Guides</button>
+          </div>
+        </section>
+       <!--  low Price Section -->
+       <section class="p-3 my-9">
+        <h2 class="adlam-display text-[2.25rem] font-bold mb-8">Everyday low Price</h2>
+        <div class="md:flex gap-6">
+          <div class="md:w-2/3 flex justify-between items-center px-10 py-0 rounded-lg bg-gradient-to-r from-[#F7CCFB] to-[#AFD2FD]">
+            <!-- Contant -->
+            <div>
+              <div class="space-y-4">
+                <p class="hidden md:inline-block">Under Price</p>
+                <h4 class="text-4xl adlam-display font-bold">Pet Grooming Mitt</h4>
+                <p class="hidden md:flex text-white">(Easy Hair Removal)</p>
+                <h1 class="text-[3.5rem] text-white font-bold">$7.99</h1>
+              </div>
+            </div>
+            <!-- images -->
+            <div>
+              <img src="c1-assets/cute-dog-mid.png" class="w-[382px] h-auto" alt="">
+            </div>
+          </div>
+          <div class="md:w-1/3 rounded-xl bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] p-8 pb-12">
+            <!-- text -->
+            <div class="space-y-6">
+              <h3 class="adlam-display text-[2rem] font-bold">T- Shirt For Dogs</h3>
+              <h1 class="text-[#FFDC26] text-[3.5rem] font-bold">$7.99</h1>    
+            </div>
+            <!-- img -->
+             <div class="md:w-[312px] h-auto md:ml-[5rem] md:-mt-[20px]">
+              <img src="c1-assets/cute-pet-mid.png" class=" w-[220px] md:w-full h-auto z-10" alt="">
+             </div>
+          </div>
+        </div>
+       </section>
+
+       <!-- pawsome news -->
+        <section class="mt-24 z-[999999999] ">
+          <div class="hero bg-secondary z-[999999999] rounded-md min-h-screen">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="c1-assets/cute-pet-mid.png"
+                class="max-w-sm rounded-lg " />
+              <div>
+                <h1 class="text-5xl adlam-display font-bold">Get Pawsome News!</h1>
+                <p class="py-6">
+                  Exclusive training tips, ticks, product deals and more.
+                </p>
+                <input class="rounded-md  p-5" type="email" placeholder="Enter Email"><br><br>
+                <button class="btn bg-yellow-400 hover:bg-secondary hover:border-yellow-400 px-4 py-2 md:py-[10px] md:px-[30px]">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </section> 
+
+
+                
     </main>
     <!-- Footer -->
-    <footer class="md:container md:mx-auto">
-
+    
+    <footer class="bg-[#ffdb2670] pt-96 -mt-[300px] -z-0 sora"> 
+      <div class="md:container md:mx-auto footer p-10">
+        <aside>
+          <a class="text-[1.625rem] flex justify-start items-center"> 
+            <img src="c1-assets/logo-footer.png" class="mr-3" alt="">
+            <span class="hidden md:inline">Browse4Pets</span>
+          </a>
+          <p>
+            Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends
+          </p>
+        </aside>
+        <nav class="space-y-5">          
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>          
+        </nav>
+        
+        <nav>
+          <small>Follow Us</small>
+          <div class="flex gap-6">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          
+        </nav>
+      </div>
+      
     </footer>
+    
 </body>
 </html>
